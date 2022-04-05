@@ -63,6 +63,7 @@ export class IssueGraduationManager {
       });
       return filteredLabels.length !== 0;
     }
+
   }
 
   private async updateLinkedPrs(issueNumber: number) {
