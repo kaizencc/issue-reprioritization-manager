@@ -9,6 +9,7 @@ export interface IssueGraduationManagerProps {
   readonly omitMessage: boolean;
 }
 
+
 export class IssueGraduationManager {
   private readonly client: ReturnType<typeof github.getOctokit>;
   private readonly owner: string;
